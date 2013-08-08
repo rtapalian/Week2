@@ -1,25 +1,28 @@
-  	.headertitle{
-			position:relative;
-			margin:auto;
-			width: 13%;
-			}
-		  
-		  .contentbox {
-		    position:relative;
+  .headertitle{
+position:relative;
+margin:auto;
+width: 13%;
+}
+
+.contentbox {
+position:relative;
             border-radius : 2em;
             border: 0.2em solid #369;
             padding : 1.0em;
             width: 50%;
-			margin:auto;
-			}
-			.error {
-		color: red;
-	}
-	input[type=text].bad {
-		border: 2px solid red;
-	}
-	
-	input[type=text].good {
-		border: 2px solid green;
-	}
-	
+margin:auto;
+}
+.error {
+color: red;
+}
+input[type=text].bad {
+border: 2px solid red;
+}
+
+input[type=text].good {
+border: 2px solid green;
+}
+
+.hide {
+	display: none;
+}
