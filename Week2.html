@@ -15,7 +15,7 @@
 <body>
 <header>
 <h1 class="headertitle">Contact Form</h1>
-
+<!--myform is the Entry form.  The data entered is sent to the Javascript page for processing.-->
 <form id="myform" name="myform" class="contentbox">
 
 <label for="int-name">First Name</label><input id="int-name" type="text" name="name" size="25" placeholder="John"/><span class="error" id="err_name"></span>
@@ -32,9 +32,10 @@ Comments:<br/>
 
 
 <br/><br/>
+<!--The submit button sends the data after it is entered-->
 <input type="button" value="submit" onclick="submitForm();" />
 </form>
-
+<!--The confirmation page displays the data after it is validated-->
 <div id="confirmation" class="contentbox hide">
 	<h1>Confirmation</h1>
 	<div id="confirm_results">
